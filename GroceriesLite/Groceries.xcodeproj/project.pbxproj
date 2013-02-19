@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* GroceriesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GroceriesAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28D3F202112F7DC200FD0661 /* Groceries.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* Groceries.xcdatamodeld */; };
+		FC30004B1319606900C82933 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3000491319606900C82933 /* Icon.png */; };
+		FC30008A13199E6E00C82933 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = FC30008713199E6E00C82933 /* Event.m */; };
+		FC30008B13199E6E00C82933 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = FC30008913199E6E00C82933 /* Item.m */; };
+		FC79F5181332B7DA00673E34 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC79F5171332B7D900673E34 /* iAd.framework */; };
+		FCACFCA5131FDFC50060AD23 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCACFCA0131FDFC50060AD23 /* Icon@2x.png */; };
+		FCACFCA6131FDFC50060AD23 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCACFCA1131FDFC50060AD23 /* Icon-Small@2x.png */; };
+		FCACFCA7131FDFC50060AD23 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = FCACFCA2131FDFC50060AD23 /* Icon-Small.png */; };
+		FCACFCA8131FDFC50060AD23 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = FCACFCA3131FDFC50060AD23 /* Icon-Small-50.png */; };
+		FCACFCA9131FDFC50060AD23 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FCACFCA4131FDFC50060AD23 /* Icon-72.png */; };
+		FCACFDA413203D0A0060AD23 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FCACFDA313203D0A0060AD23 /* background.png */; };
+		FCACFDFE132051CA0060AD23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCACFDFD132051CA0060AD23 /* InfoPlist.strings */; };
+		FCAEF7A11309DDBD00426380 /* GroceriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAEF7A01309DDBD00426380 /* GroceriesViewController.m */; };
+		FCAEF7B71309E2E000426380 /* tab_bar_cart.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAEF7B51309E2E000426380 /* tab_bar_cart.png */; };
+		FCAEF7BA1309E56B00426380 /* tab_bar_search.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAEF7B91309E56B00426380 /* tab_bar_search.png */; };
+		FCAEF7C9130B1DB400426380 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAEF7C7130B1DB400426380 /* EditViewController.m */; };
+		FCAEF80D130B329800426380 /* DataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAEF80C130B329800426380 /* DataProvider.m */; };
+		FCB4C58A131EA80500FA563F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		FCB4C5B2131EA9B400FA563F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB4C5B1131EA9B400FA563F /* MainWindow.xib */; };
+		FCB4C5B8131EA9FD00FA563F /* GroceriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB4C5B7131EA9FD00FA563F /* GroceriesViewController.xib */; };
+		FCB4C5D7131EB85300FA563F /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB4C5D6131EB85300FA563F /* EditViewController.xib */; };
+		FCCA4830131EDC53000C878F /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCA482F131EDC53000C878F /* Default@2x~iphone.png */; };
+		FCCA4833131EDC72000C878F /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCA4832131EDC72000C878F /* Default~iphone.png */; };
+		FCCA4836131EDC9C000C878F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCA4835131EDC9C000C878F /* Default.png */; };
+		FCCA485D131EE9AC000C878F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCCA485C131EE9AC000C878F /* Localizable.strings */; };
+		FCCDEE8513353F2D00D4ED3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCDEE8413353F2D00D4ED3A /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* GroceriesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceriesAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GroceriesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceriesAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Groceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groceries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28860B760F44E54D00985440 /* Groceries.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Groceries.xcdatamodel; sourceTree = "<group>"; };
+		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* Groceries_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Groceries_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Groceries-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Groceries-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FC045C50131855C7001B910C /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = "English.lproj/Default~iphone.png"; sourceTree = "<group>"; };
+		FC045C52131855FB001B910C /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/Default.png; sourceTree = "<group>"; };
+		FC3000491319606900C82933 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FC30008613199E6E00C82933 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		FC30008713199E6E00C82933 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		FC30008813199E6E00C82933 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		FC30008913199E6E00C82933 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		FC79F5171332B7D900673E34 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FCACFCA0131FDFC50060AD23 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		FCACFCA1131FDFC50060AD23 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		FCACFCA2131FDFC50060AD23 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		FCACFCA3131FDFC50060AD23 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		FCACFCA4131FDFC50060AD23 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		FCACFDA313203D0A0060AD23 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		FCACFDFB132051A60060AD23 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCACFDFF132051D60060AD23 /* da */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCAEF79F1309DDBD00426380 /* GroceriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceriesViewController.h; sourceTree = "<group>"; };
+		FCAEF7A01309DDBD00426380 /* GroceriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceriesViewController.m; sourceTree = "<group>"; };
+		FCAEF7A21309DDED00426380 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GroceriesViewController.xib; sourceTree = "<group>"; };
+		FCAEF7B51309E2E000426380 /* tab_bar_cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_bar_cart.png; sourceTree = "<group>"; };
+		FCAEF7B91309E56B00426380 /* tab_bar_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_bar_search.png; sourceTree = "<group>"; };
+		FCAEF7C7130B1DB400426380 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		FCAEF7C8130B1DB400426380 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		FCAEF7CA130B1E1800426380 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/EditViewController.xib; sourceTree = "<group>"; };
+		FCAEF80B130B329800426380 /* DataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		FCAEF80C130B329800426380 /* DataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataProvider.m; sourceTree = "<group>"; };
+		FCB4C5B3131EA9BD00FA563F /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FCB4C5B9131EAA0500FA563F /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/GroceriesViewController.xib; sourceTree = "<group>"; };
+		FCB4C5D8131EB85B00FA563F /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/EditViewController.xib; sourceTree = "<group>"; };
+		FCCA4831131EDC60000C878F /* da */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = da; path = "da.lproj/Default@2x~iphone.png"; sourceTree = "<group>"; };
+		FCCA4834131EDC80000C878F /* da */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = da; path = "da.lproj/Default~iphone.png"; sourceTree = "<group>"; };
+		FCCA4837131EDCA5000C878F /* da */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = da; path = da.lproj/Default.png; sourceTree = "<group>"; };
+		FCCA485A131EE9A0000C878F /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FCCA485E131EE9B7000C878F /* da */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FCCDEE8413353F2D00D4ED3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCD450411318551A006616C2 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = "English.lproj/Default@2x~iphone.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCDEE8513353F2D00D4ED3A /* CoreGraphics.framework in Frameworks */,
+				FC79F5181332B7DA00673E34 /* iAd.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FCAEF7C8130B1DB400426380 /* EditViewController.h */,
+				FCAEF7C7130B1DB400426380 /* EditViewController.m */,
+				1D3623240D0F684500981E51 /* GroceriesAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GroceriesAppDelegate.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				FCAEF79F1309DDBD00426380 /* GroceriesViewController.h */,
+				FCAEF7A01309DDBD00426380 /* GroceriesViewController.m */,
+				FCAEF80B130B329800426380 /* DataProvider.h */,
+				FCAEF80C130B329800426380 /* DataProvider.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Groceries.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				FC4C080C1309CDC30049C32D /* Model Classes */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* Groceries_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCACFDFD132051CA0060AD23 /* InfoPlist.strings */,
+				FCACFDA313203D0A0060AD23 /* background.png */,
+				FCACFCA0131FDFC50060AD23 /* Icon@2x.png */,
+				FCACFCA1131FDFC50060AD23 /* Icon-Small@2x.png */,
+				FCACFCA2131FDFC50060AD23 /* Icon-Small.png */,
+				FCACFCA3131FDFC50060AD23 /* Icon-Small-50.png */,
+				FCACFCA4131FDFC50060AD23 /* Icon-72.png */,
+				FCCA485C131EE9AC000C878F /* Localizable.strings */,
+				FC3000491319606900C82933 /* Icon.png */,
+				FCCA4835131EDC9C000C878F /* Default.png */,
+				FCCA4832131EDC72000C878F /* Default~iphone.png */,
+				FCCA482F131EDC53000C878F /* Default@2x~iphone.png */,
+				FCB4C5D6131EB85300FA563F /* EditViewController.xib */,
+				FCAEF7B51309E2E000426380 /* tab_bar_cart.png */,
+				FCAEF7B91309E56B00426380 /* tab_bar_search.png */,
+				28D3F201112F7DC200FD0661 /* Groceries.xcdatamodeld */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				FCB4C5B1131EA9B400FA563F /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Groceries-Info.plist */,
+				FCB4C5B7131EA9FD00FA563F /* GroceriesViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCCDEE8413353F2D00D4ED3A /* CoreGraphics.framework */,
+				FC79F5171332B7D900673E34 /* iAd.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				28860BE40F44EE6400985440 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC4C080C1309CDC30049C32D /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC30008613199E6E00C82933 /* Event.h */,
+				FC30008713199E6E00C82933 /* Event.m */,
+				FC30008813199E6E00C82933 /* Item.h */,
+				FC30008913199E6E00C82933 /* Item.m */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Groceries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Groceries" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Groceries;
+			productName = Groceries;
+			productReference = 1D6058910D05DD3D006BFB54 /* Groceries.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Groceries" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				Danish,
+				da,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Groceries */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB4C5B2131EA9B400FA563F /* MainWindow.xib in Resources */,
+				FCB4C58A131EA80500FA563F /* RootViewController.xib in Resources */,
+				FCB4C5B8131EA9FD00FA563F /* GroceriesViewController.xib in Resources */,
+				FCAEF7B71309E2E000426380 /* tab_bar_cart.png in Resources */,
+				FCAEF7BA1309E56B00426380 /* tab_bar_search.png in Resources */,
+				FCB4C5D7131EB85300FA563F /* EditViewController.xib in Resources */,
+				FCCA4830131EDC53000C878F /* Default@2x~iphone.png in Resources */,
+				FCCA4833131EDC72000C878F /* Default~iphone.png in Resources */,
+				FCCA4836131EDC9C000C878F /* Default.png in Resources */,
+				FC30004B1319606900C82933 /* Icon.png in Resources */,
+				FCCA485D131EE9AC000C878F /* Localizable.strings in Resources */,
+				FCACFCA5131FDFC50060AD23 /* Icon@2x.png in Resources */,
+				FCACFCA6131FDFC50060AD23 /* Icon-Small@2x.png in Resources */,
+				FCACFCA7131FDFC50060AD23 /* Icon-Small.png in Resources */,
+				FCACFCA8131FDFC50060AD23 /* Icon-Small-50.png in Resources */,
+				FCACFCA9131FDFC50060AD23 /* Icon-72.png in Resources */,
+				FCACFDA413203D0A0060AD23 /* background.png in Resources */,
+				FCACFDFE132051CA0060AD23 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* GroceriesAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				28D3F202112F7DC200FD0661 /* Groceries.xcdatamodeld in Sources */,
+				FCAEF7A11309DDBD00426380 /* GroceriesViewController.m in Sources */,
+				FCAEF7C9130B1DB400426380 /* EditViewController.m in Sources */,
+				FCAEF80D130B329800426380 /* DataProvider.m in Sources */,
+				FC30008A13199E6E00C82933 /* Event.m in Sources */,
+				FC30008B13199E6E00C82933 /* Item.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCACFDFD132051CA0060AD23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCACFDFB132051A60060AD23 /* English */,
+				FCACFDFF132051D60060AD23 /* da */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCB4C5B1131EA9B400FA563F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28AD735F0D9D9599002E5188 /* English */,
+				FCB4C5B3131EA9BD00FA563F /* da */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FCB4C5B7131EA9FD00FA563F /* GroceriesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAEF7A21309DDED00426380 /* English */,
+				FCB4C5B9131EAA0500FA563F /* da */,
+			);
+			name = GroceriesViewController.xib;
+			sourceTree = "<group>";
+		};
+		FCB4C5D6131EB85300FA563F /* EditViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAEF7CA130B1E1800426380 /* English */,
+				FCB4C5D8131EB85B00FA563F /* da */,
+			);
+			name = EditViewController.xib;
+			sourceTree = "<group>";
+		};
+		FCCA482F131EDC53000C878F /* Default@2x~iphone.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD450411318551A006616C2 /* English */,
+				FCCA4831131EDC60000C878F /* da */,
+			);
+			name = "Default@2x~iphone.png";
+			sourceTree = "<group>";
+		};
+		FCCA4832131EDC72000C878F /* Default~iphone.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC045C50131855C7001B910C /* English */,
+				FCCA4834131EDC80000C878F /* da */,
+			);
+			name = "Default~iphone.png";
+			sourceTree = "<group>";
+		};
+		FCCA4835131EDC9C000C878F /* Default.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC045C52131855FB001B910C /* English */,
+				FCCA4837131EDCA5000C878F /* da */,
+			);
+			name = Default.png;
+			sourceTree = "<group>";
+		};
+		FCCA485C131EE9AC000C878F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCA485A131EE9A0000C878F /* English */,
+				FCCA485E131EE9B7000C878F /* da */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Groceries_Prefix.pch;
+				INFOPLIST_FILE = "Groceries-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = Groceries;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Groceries_Prefix.pch;
+				INFOPLIST_FILE = "Groceries-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = Groceries;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FC57031C1320D5D900138920 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = "Ad Hoc";
+		};
+		FC57031D1320D5D900138920 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Groceries_Prefix.pch;
+				INFOPLIST_FILE = "Groceries-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = Groceries;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		FCE1BEBD1322B224006832BA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		FCE1BEBE1322B224006832BA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Groceries_Prefix.pch;
+				INFOPLIST_FILE = "Groceries-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = Groceries;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Groceries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				FCE1BEBE1322B224006832BA /* Distribution */,
+				FC57031D1320D5D900138920 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Groceries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				FCE1BEBD1322B224006832BA /* Distribution */,
+				FC57031C1320D5D900138920 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28D3F201112F7DC200FD0661 /* Groceries.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28860B760F44E54D00985440 /* Groceries.xcdatamodel */,
+			);
+			currentVersion = 28860B760F44E54D00985440 /* Groceries.xcdatamodel */;
+			path = Groceries.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
