@@ -15,6 +15,7 @@
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28D3F202112F7DC200FD0661 /* Groceries.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* Groceries.xcdatamodeld */; };
+		FC0CB10016D56593004ABA7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0CB0FF16D56593004ABA7E /* Default-568h@2x.png */; };
 		FC30004B1319606900C82933 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3000491319606900C82933 /* Icon.png */; };
 		FC30008A13199E6E00C82933 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = FC30008713199E6E00C82933 /* Event.m */; };
 		FC30008B13199E6E00C82933 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = FC30008913199E6E00C82933 /* Item.m */; };
@@ -58,6 +59,7 @@
 		8D1107310486CEB800E47090 /* Groceries-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Groceries-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		FC045C50131855C7001B910C /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = "English.lproj/Default~iphone.png"; sourceTree = "<group>"; };
 		FC045C52131855FB001B910C /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/Default.png; sourceTree = "<group>"; };
+		FC0CB0FF16D56593004ABA7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FC3000491319606900C82933 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		FC30008613199E6E00C82933 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		FC30008713199E6E00C82933 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				FC0CB0FF16D56593004ABA7E /* Default-568h@2x.png */,
 				FC4C080C1309CDC30049C32D /* Model Classes */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -273,6 +276,7 @@
 				FCACFCA9131FDFC50060AD23 /* Icon-72.png in Resources */,
 				FCACFDA413203D0A0060AD23 /* background.png in Resources */,
 				FCACFDFE132051CA0060AD23 /* InfoPlist.strings in Resources */,
+				FC0CB10016D56593004ABA7E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

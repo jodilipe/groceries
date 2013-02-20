@@ -75,7 +75,10 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-	int index = [sortByElements indexOfObject:item.sortBy];
+    int index = 0;
+    if (item.name) {
+        index = [sortByElements indexOfObject:item.sortBy];
+    }
 	[sortByPickerView selectRow: index inComponent: 0 animated:NO];
 }
 
